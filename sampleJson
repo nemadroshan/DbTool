@@ -1,0 +1,17 @@
+//for aggrigate function type =DATE
+
+{
+    "column_name": "rbh_selfpay",
+    "out_operation": "AVG",
+    "condition_on_column_values": [
+        "34"
+    ],
+    "condition_on_column_names": [
+         "RBH_CVR"
+    ],
+    "date": {
+        "type": "DATE",
+        "value": "19-Jul-2018",
+        "column_name": "RBH_BILLDTTIME"
+    }
+}
